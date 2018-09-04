@@ -88,7 +88,7 @@ class _DeepStringCoder(object):
         return decoded
     
 if len(sys.argv) != 3:
-    print "args error,usag %s username password" % sys.argv[0]
+    print "args error,usage %s username password" % sys.argv[0]
     exit(1)
     
 rst=validUser(sys.argv[1],sys.argv[2])
